@@ -6,9 +6,9 @@
 
 student_data = {
     "name": "zakarie",
-    "stream": "devops",
-    "completed_lessons": 4,
-    "completed_lessons_names": ["lists", "tuples", "strings"]
+    "course": "devops",
+    "age": 23,
+    "city": "london"
 }
 
 for x in student_data.values():
@@ -18,10 +18,10 @@ for x in student_data:
     # print(student_1[x])
     if x == "name":
         print(f"Your name is {student_data[x]}")
-    elif x == "stream":
-        print(f"You study {student_data[x]}")
+    elif x == "course":
+        print(f"You are {student_data[x]}")
     elif x == "completed_lessons":
-        print(f"You completed {student_data[x]} lessons")
+        print(f"You live in {student_data[x]}")
 
 
 
